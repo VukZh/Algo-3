@@ -39,12 +39,4 @@ public class FiboMatrixSpeed {
         return F1;
     }
 
-    public static void main(String[] args) {
-        int n = 200000;
-        long startTime = System.currentTimeMillis();
-        System.out.println(fib(n));
-        long timeSpent = System.currentTimeMillis() - startTime;
-        System.out.println("время выполнения " + timeSpent + " миллисекунд");
-    }
-
 }
